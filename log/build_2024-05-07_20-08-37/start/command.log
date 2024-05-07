@@ -1,0 +1,2 @@
+Invoking command in '/mnt/data/xgs/code/start/build/start': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(/home/xgs/anaconda3) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/start
+Invoked command in '/mnt/data/xgs/code/start/build/start' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(/home/xgs/anaconda3) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/start

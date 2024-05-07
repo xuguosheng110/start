@@ -1,0 +1,38 @@
+[0.018s] Invoking command in '/mnt/data/xgs/code/start/build/start': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/start
+[0.093s] -- The C compiler identification is GNU 9.4.0
+[0.144s] -- The CXX compiler identification is GNU 9.4.0
+[0.150s] -- Check for working C compiler: /usr/bin/cc
+[0.199s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.201s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.332s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.419s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.471s] -- Found PythonInterp: /usr/local/anaconda3/bin/python3 (found suitable version "3.7", minimum required is "3") 
+[0.471s] -- Using PYTHON_EXECUTABLE: /usr/local/anaconda3/bin/python3
+[0.827s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.861s] Traceback (most recent call last):
+[0.861s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.861s]     from catkin_pkg.package import parse_package_string
+[0.861s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.864s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.864s]   execute_process(/usr/local/anaconda3/bin/python3
+[0.864s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.865s]   /mnt/data/xgs/code/start/package.xml
+[0.865s]   /mnt/data/xgs/code/start/build/start/ament_cmake_core/package.cmake)
+[0.865s]   returned error code 1
+[0.865s] Call Stack (most recent call first):
+[0.865s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.865s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.865s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.865s] 
+[0.865s] 
+[0.865s] -- Configuring incomplete, errors occurred!
+[0.865s] See also "/mnt/data/xgs/code/start/build/start/CMakeFiles/CMakeOutput.log".
+[0.875s] Invoked command in '/mnt/data/xgs/code/start/build/start' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/start

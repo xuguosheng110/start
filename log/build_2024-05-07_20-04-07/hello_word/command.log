@@ -1,0 +1,2 @@
+Invoking command in '/mnt/data/xgs/code/start/build/hello_word': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/hello_word
+Invoked command in '/mnt/data/xgs/code/start/build/hello_word' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/local/bin/cmake /mnt/data/xgs/code/start -DCMAKE_INSTALL_PREFIX=/mnt/data/xgs/code/start/install/hello_word
